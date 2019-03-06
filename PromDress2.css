@@ -1,0 +1,35 @@
+/*
+* Emma Philbin
+* 6 March 2019
+* Prom Dress Shopping
+*/
+
+/* The universal selector */
+
+* {
+    
+}
+
+/* Body attributes here */
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: pink; 
+    font-family: Arial;
+}
+
+h1 {
+    background-color: skyblue; /*color for background */
+    color: mediumpurple; /* color of text */
+}
+
+p { /* type selector for ALL paragraphs */
+    color: azure;
+}
+
+#redText { /* use an id to change text to red */
+    color:crimson;
+}
+
+.greenText {color: greem;} /* green won't show up */
